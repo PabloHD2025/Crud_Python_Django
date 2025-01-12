@@ -12,5 +12,10 @@ def libros(request):
 def nosotros(request):
     return render(request, 'paginas/nosotros.html') #Renderiza el archivo nosotros.html
 
+def crear(request):
+    return render(request, 'libros/crear.html') #Renderiza el archivo crear.html    
+
+def editar(request):
+    return render(request, 'libros/editar.html') #Renderiza el archivo editar.html  
 
 
